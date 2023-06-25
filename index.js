@@ -1,8 +1,8 @@
-//our-domain.com/
-function Home(){
+//our-domain.com/news/something-important
+function News (){
+return <h1>Hello</h1>
 
-return <h1>hi</h1>
 
 
 }
-export default Home;
+export default News;
