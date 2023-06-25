@@ -1,8 +1,8 @@
-//our-domain.com/news/something-important
-function News (){
-return <h1>Hello</h1>
-
-
-
-}
-export default News;
+//our-domain.com/about/1
+function About (){
+    return <h1>yash bhaiya is senior devolper</h1>
+    
+    
+    
+    }
+    export default About;
