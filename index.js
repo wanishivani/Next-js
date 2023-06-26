@@ -1,12 +1,13 @@
-//our-domain.com/new-meetup
+import MeetupDetails from "../../components/meetups/MeetupDetails";
 
-import  NewMeetupForm  from'../../components/meetups/NewMeetupForm';
+function Meetupdetails(){
+return (<MeetupDetails
+img='https://upload.wikimedia.org/wikipedia/commons/d/d3/Stadtbild_M%C3%BCnchen.jpg'
+alt='a first meetup'
+title='First meeting'
+adress='2345 city some'
+/>
+)
 
-  function  NewMeetup(){
-    function  AddMeetupHandler(enteredMeetupData){
-        console.log(enteredMeetupData);
-    }
-return <NewMeetupForm  onAddMeetup={AddMeetupHandler}/>
-
-  }
-  export default NewMeetup;
+}
+export default Meetupdetails;
