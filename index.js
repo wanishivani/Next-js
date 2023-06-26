@@ -1,8 +1,12 @@
-//our-domain.com/
-function Home(){
+//our-domain.com/new-meetup
 
-return <h1>hi</h1>
+import  NewMeetupForm  from'../../components/meetups/NewMeetupForm';
 
+  function  NewMeetup(){
+    function  AddMeetupHandler(enteredMeetupData){
+        console.log(enteredMeetupData);
+    }
+return <NewMeetupForm  onAddMeetup={AddMeetupHandler}/>
 
-}
-export default Home;
+  }
+  export default NewMeetup;
