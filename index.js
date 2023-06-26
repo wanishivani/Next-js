@@ -1,8 +1,8 @@
-//our-domain.com/about/1
-function About (){
-    return <h1>yash bhaiya is senior devolper</h1>
-    
-    
-    
-    }
-    export default About;
+//our-domain.com/
+function Home(){
+
+return <h1>hi</h1>
+
+
+}
+export default Home;
